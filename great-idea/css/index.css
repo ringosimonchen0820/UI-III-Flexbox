@@ -64,3 +64,228 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	max-width:100%;
+   /*border:1px solid red !important;*/
+	
+ }
+ 
+/* index.html */
+
+
+
+/* styles of header */
+header{
+	display:flex;
+	justify-content:space-between;
+  }
+  
+  .navTag{
+	width:70%;
+	display:flex;
+	align-items:center;
+  }
+  
+  .navTag nav{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+  }
+  
+  .navTag nav a{
+	color:grey;
+  }
+
+/* content styles */
+h1{
+	font-size: 99.1px;
+	text-align: center;
+	margin: 12% 0 15% 7.6px;
+	display: inline-block;
+	width: 50.6%;
+  }
+  /*.pic{
+	width:47%;
+	margin:0 2%;
+  }*/
+  section h1 span{
+	border:1px solid black;
+	font-size:30px;
+	font-family: "Times New Roman", Times, serif;
+  }
+  .container{
+	display:inline-block;
+  }
+  .box1{
+	display:inline-block;
+	width:49.7%;
+	margin:0 auto;
+  }
+  .box2{
+	display:inline-block;
+	width:33%;
+	margin:0 auto;
+  
+  }
+  .contact{
+	margin:1% 0;
+  }
+  hr { 
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+  } 
+
+  /* footer styles */
+  footer{
+	text-align:center;
+  }
+  
+  /* img styles */
+  .logo{
+	float:right;
+  }
+  .circle-img{
+	/*display:inline-block;*/
+	width:508.8px;
+	margin:4.5% -186.7px 0 3.8%;
+	float:right;
+  }
+  .middle-img{
+	display:inline-block;
+	width: 100%;
+	margin:5px 0;
+  }
+
+
+
+
+
+ /* services.html */
+
+ html{
+   margin:1%;
+ }
+  
+ /* styles of header */
+ header{
+   display:flex;
+   justify-content:space-between;
+ }
+ 
+ .navTag{
+   width:70%;
+   display:flex;
+   align-items:center;
+ }
+ 
+ .navTag nav{
+   width:100%;
+   display:flex;
+   justify-content:space-between;
+ }
+ 
+ .navTag nav a{
+   color:grey;
+ }
+ 
+ 
+ 
+ /* styles for services */
+ .services-header-img {
+   display:inline-block;
+   width:100%;
+ 
+ }
+ 
+ .services {
+   display: flex;
+   align-content: center;
+   margin: 2% 0 2% 0;
+ 
+ }
+ 
+ 
+ 
+ /* styles for body */
+ .BodyContainer{
+   display:flex;
+   flex-direction:column;
+   margin:2% 0;
+ }
+ 
+ .BodyContainer .boxes{
+   display:flex;
+   justify-content:space-between;
+ }
+ 
+ .BodyContainer .boxes div.first{
+   width: 50%;
+   height: 64%;
+   padding: 3%;
+   margin: 1.2% -1.1% 1% 0;
+   border:1px solid black;
+   background-color:rgba(128, 128, 128, 0.185);
+   display:flex;
+   flex-direction:column;
+ }
+ 
+ div.learn-more{
+   display: inline-block;
+   border: 1px black;
+   padding: 10px;
+   align-self: flex-start;
+   background-color: white;
+   margin: 20px 0 0 0;
+ }
+ 
+ /*a.button{
+   border:1px black
+   background-color: white;
+ }*/
+ 
+ 
+ 
+ /* styles for last part */
+ .last{
+   display:flex;
+   justify-items:space-between;
+   align-items:stretch;
+   margin:2% 0%
+ }
+ 
+ .last div {
+   width:100%;
+ }
+ 
+ #lastPic{
+   display:flex;
+   align-items:stretch;
+ 
+ }
+ 
+ .services-info-img{
+   width:100%;
+ }
+ 
+ ul.a {
+   list-style-type: square;
+   margin:-10px;
+   padding:30px;
+ }
+ 
+ 
+ 
+ /* styles for footer */
+ footer {
+   text-align: center;
+ }
+ 
